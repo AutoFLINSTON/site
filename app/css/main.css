@@ -1,0 +1,440 @@
+/* fonts */
+@font-face {
+    font-family: 'fira_sansbook';
+    src: url('../fonts/firasans-book-webfont.eot');
+    src: url('../fonts/firasans-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-book-webfont.woff') format('woff'),
+         url('../fonts/firasans-book-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-book-webfont.svg#fira_sansbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_condensedSBd';
+    src: url('../fonts/proximanovacond-semibold-webfont.eot');
+    src: url('../fonts/proximanovacond-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanovacond-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanovacond-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	width: 100%;
+	font-family: 'fira_sanslight', Arial, sans-serif;
+	background: url(../img/fon.png) repeat;
+	font: 1em 'fira_sanslight';
+}
+
+.page_wrap {
+	min-height: 100%;
+	margin-bottom: -78px;
+}
+
+.page_wrap:after {
+  content: "";
+  display: block;
+}
+
+.site_footer, .page_wrap:after {
+  height: 78px;
+}
+
+header {
+	width: 99%;
+	height: 82px;
+	background-color: #eff3f7;
+	padding-top: 35px;
+	min-width: 970px;
+	
+}
+
+
+.header_in_wrapper {
+	width: 90%;
+	height: 48px;
+	margin: 0px auto;
+	background-color: #eff3f7;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	
+}
+
+.head_inline{
+	-webkit-filter: grayscale(100%);
+}
+
+
+.head_inline:hover{
+	-webkit-filter: grayscale(0%);
+}
+
+.header_in_wrapper img {
+	margin-left: 34px;
+	
+}
+
+.soc{
+	float: right;
+	width: 45%;
+	position: absolute;
+	left: 60%;
+	
+}
+
+.log{
+	float: left;
+	width: 45%;
+	padding-left: 34px;
+}
+
+
+
+
+
+
+
+main {
+	padding-top: 2%;
+	width: 75%;
+	margin: 0px auto;
+}
+
+
+/*==== MENU ======*/
+
+.menu{
+	width: 25%;
+	float: left;
+	
+	
+}
+
+.menu_up {
+	width: 250px;
+	background: #eff3f7;
+	border-radius: 5px;
+	padding: 0, 0, 5, 0;
+	cursor: pointer;
+}
+
+.menu_up li {
+	list-style-type: none;
+	color: #959aa8;
+	cursor: pointer;
+	padding: 15px 15px 15px 25px;
+	font-family: 'fira_sansbook', Arial, sans-serif;
+	font-size: 21px;
+}
+
+.menu_up li {
+	border-bottom: 2px #3ba8c0 solid;
+}
+
+.menu_up li:last-of-type {
+	border-bottom: none;
+}
+
+.menu_up li:hover {
+	color: #3ba8c0;
+	
+}
+
+.menu_up li.selected {
+	color: #fff;
+	background-color: #3ba8c0;
+}
+
+.menu_up li.selected:first-of-type {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.menu_up li.selected:last-of-type {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+
+.menu_down {
+	/*float: left;*/
+	width: 250px;
+	background: #3ba8c0;
+	border-radius: 5px;
+	padding: 10,0,0,0;
+	
+	
+}
+
+.mail{
+	background: #41b9d4;
+	text-indent:3em;
+	background-image: url('../img/mail.png');
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+	
+	
+}
+
+.telephon{
+	background: #48cbe8;
+	text-indent:3em;
+	background-image: url('../img/tel.png');
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+}
+
+.sk{
+
+	background: #51daf8;
+	text-indent:3em;
+	background-image: url('../img/skype.png');
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+}
+
+
+
+.menu_down li {
+	list-style-type: none;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 15px 15px 15px 25px;
+	font-family: 'fira_sansbook', Arial, sans-serif;
+	font-size: 18px;
+}
+
+.menu_down li {
+	border-bottom: 2px #3ba8c0 solid;
+	cursor: default;
+}
+
+.link_a{
+	text-decoration: none;
+	color:white;
+}
+
+/*=====Аватарка======*/
+
+.imgI {
+	width: 150px;
+	height: 150px;
+	box-sizing:border-box;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 5px solid #3ba8c0;
+	vertical-align: top;
+	margin-left: 50px;
+	margin-right: 20px;
+	float: left;
+	
+
+}
+
+
+
+
+/*=====Работа======*/
+
+/*.work_center{
+	border: 4px double black;
+	width: 70%;
+	float: right;
+	min-width: 470px;
+}*/
+
+.work_dates{
+	line-height: 1.8em;
+	
+	
+}
+
+/*.info_me{
+	display: inline-block;
+	border: 4px double red;
+}*/
+
+.scil_1 span{
+	list-style: none;
+	font-family: 'fira_sansbook', Arial, sans-serif;
+	
+
+	display: inline-block;
+	
+
+	
+}
+
+.scil {
+	
+	font-size: 90%;
+	padding: 2px;
+	vertical-align: baseline;
+	background: linear-gradient(to top, #2e8ca2, #3ba8c0);
+	color:white;
+}
+
+
+
+.item_2 {
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	margin-top: 16px;
+	float: right;
+	width: 60%;
+}
+
+
+.item {
+	background-repeat: no-repeat;
+	text-indent: 128px;
+	margin-top: 18px;
+}
+
+.head_text {
+	margin-bottom: 19px;
+}
+
+.item {
+	margin-bottom: 16px;
+}
+
+.item_2 p {
+	font-family: 'fira_sansbook', Arial, sans-serif;
+	font-size: 15px;
+}
+
+.slow {
+	font-family: 'proxima_nova_condensedSBd', Arial, sans-serif;
+	font-size: 15px;
+}
+
+
+.item p {
+	font-family: 'fira_sansbook', Arial, sans-serif;
+	font-size: 17px;
+}
+
+.item .work_dates {
+	font-family: 'proxima_nova_condensedSBd', Arial, sans-serif;
+	font-size: 15px;
+}
+
+.case {
+	background-image: url('../img/case.png');
+	background-position: 58px 5px;
+}
+
+.hat {
+	background-image: url('../img/hat.png');
+	background-position: 58px 10px;
+}
+
+.course {
+	background-image: url('../img/doc.png');
+	background-position: 66px 10px;
+}
+
+.experience, .education {
+	background-color: #eff3f7;
+	border-radius: 5px;
+	margin-left: 310px;
+	padding-bottom: 22px;
+}
+
+.info_me {
+	min-height: 400px;
+}
+
+
+.experience {
+	width: 60%;
+	margin-top: 10px;
+	min-width: 570px;
+	
+	
+	
+}
+
+.head_text {
+	width: 210px;
+	padding: 10px 30px 10px;
+	border-bottom: 2px #3ba8c0 solid;
+}
+
+.head_text p {
+	color: #3ba8c0;
+	font-family: 'proxima_nova_condensedSBd', Arial, sans-serif;
+	font-size: 27px;
+}
+
+
+
+
+footer {
+	width: 99%;
+	background-color: #eff3f7;
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	height: 48px;
+	margin: 0px auto;
+	background-position: 0px 0px;
+	min-width: 970px;
+}
+
+.me_site1{
+	position: absolute;
+	font-family: 'fira_sansbook';
+	font-size: 16px;
+	line-height: 2.2;
+	color:#4a545d;
+	left: 450px;
+		
+}
+
+.lock{
+	position: absolute;
+	display: block;
+	height: 40px;
+	font-family: 'fira_sansbook';
+	background:url(../img/login.png) no-repeat;
+	font-size: 16px;
+	line-height: 2.2;
+	color:#4a545d;
+	text-decoration: none;
+	padding-left: 24px;
+	float:left;
+	left: 250px;
+}
+
+.lock:hover{
+	text-decoration: underline;
+	background:url(../img/login-open.png) no-repeat;
+}
+
+
+.gradient_line {
+	width: 99%;
+	height: 3px;
+	opacity: 0.95;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6fa+0,1c667a+50,f2f6fa+100 */
+	background: #f2f6fa; /* Old browsers */
+	background: -moz-linear-gradient(left, #f2f6fa 0%, #1c667a 50%, #f2f6fa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2f6fa), color-stop(50%,#1c667a), color-stop(100%,#f2f6fa)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #f2f6fa 0%,#1c667a 50%,#f2f6fa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #f2f6fa 0%,#1c667a 50%,#f2f6fa 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #f2f6fa 0%,#1c667a 50%,#f2f6fa 100%); /* IE10+ */
+	background: linear-gradient(to right, #f2f6fa 0%,#1c667a 50%,#f2f6fa 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6fa', endColorstr='#f2f6fa',GradientType=1 ); /* IE6-9 */
+}
+
